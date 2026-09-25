@@ -40,7 +40,6 @@
       font-size: 1.1rem;
     }
 
-    /* Mřížka pro zeď fotek */
     .wall-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -48,34 +47,6 @@
       margin-bottom: 50px;
     }
 
-    .cat-card {
-      background: #1e1e1e;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .cat-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 25px rgba(255, 152, 0, 0.2);
-    }
-
-    .cat-card img {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-      display: block;
-    }
-
-    .cat-caption {
-      padding: 15px;
-      font-size: 0.95rem;
-      color: #ddd;
-      text-align: center;
-    }
-
-    /* Sekce pro komentáře */
     .comments-section {
       background: #1e1e1e;
       border-radius: 12px;
@@ -108,12 +79,10 @@
       <p>Komunitní zeď koček a kocourů</p>
     </header>
 
-    <!-- ZEĎ S FOTKAMI -->
     <main class="wall-grid">
-      <!-- Sem přijdou budoucí fotky -->
+      <!-- Místo pro budoucí fotky koček -->
     </main>
 
-    <!-- SEKCE PRO KOMENTÁŘE -->
     <section class="comments-section">
       <h2>Napište nám vzkaz nebo komentář</h2>
       
@@ -128,7 +97,7 @@
     </section>
 
     <footer>
-      &copy; Wall of Cats. Všechna práva vyhracena.
+      &copy; Wall of Cats. Všechna práva vyhrazena.
     </footer>
   </div>
 
